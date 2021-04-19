@@ -1,0 +1,8 @@
+$background-color: red;
+$linear-color:hsl(236, 72%, 79%),hsl(237, 63%, 64%);
+
+body {
+  // background: $background-color;
+  background: linear-gradient($linear-color);
+
+}
