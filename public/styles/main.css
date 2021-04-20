@@ -33,11 +33,12 @@ body:before {
   content: '';
   background-image: url("../assets/bg-top.svg");
   background-repeat: no-repeat;
-  width: 250px;
-  height: 650px;
+  width: 220px;
+  height: 680px;
   position: absolute;
   top: -20px;
-  right: -80px;
+  right: 0%;
+  overflow: hidden;
   z-index: -1;
 }
 

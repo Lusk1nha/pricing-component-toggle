@@ -1,0 +1,58 @@
+@media screen and (min-width: 780px) {
+  body {
+
+    &:before {
+      width: 300px;
+      height: 680px;
+
+      right: 0%;
+  
+      overflow: hidden;
+      
+      z-index: -1;
+
+    }
+
+    &:after {
+      content: '';
+
+      background-image: url('../assets/bg-bottom.svg');
+      background-repeat: no-repeat;
+
+      width: 500px;
+      height: 200px;
+
+      position: absolute;
+      left: 0;
+      bottom: 0;
+
+      z-index: -1;
+
+    }
+
+    header {
+      margin: 30px 0px 70px;
+  
+    }
+  
+    main {
+      flex-direction: row;
+  
+      .card {
+        max-width: 350px;
+        width: 30%;
+  
+        &:nth-child(2) {
+          height: 490px;
+  
+        }
+  
+      }
+  
+  
+    }
+  
+
+  }
+
+}
